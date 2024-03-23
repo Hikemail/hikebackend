@@ -1,8 +1,10 @@
 name = "hikebackend"
 compatibility_date = "2023-12-01"
 
-# [vars]
-# MY_VAR = "my-variable"
+node_compat = true
+
+[vars]
+DATABASE_URL = "postgresql://skktaa:password@:hike.cn0c64gk2gw3.us-east-1.rds.amazonaws.com:5432/postgres"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
